@@ -1,0 +1,156 @@
+2022-09-22 20:20:37.847  INFO 16308 --- [restartedMain] br.com.ifpe.oxefood.OxefoodApplication   : Starting OxefoodApplication using Java 11.0.16 on NNTPE1648 with PID 16308 (/home/dfbs/Documentos/ProjetoWeb4/oxefood/target/classes started by dfbs in /home/dfbs/Documentos/ProjetoWeb4/oxefood)
+2022-09-22 20:20:37.849  INFO 16308 --- [restartedMain] br.com.ifpe.oxefood.OxefoodApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-09-22 20:20:37.921  INFO 16308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-22 20:20:37.921  INFO 16308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-22 20:20:38.565  INFO 16308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-22 20:20:38.580  INFO 16308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-09-22 20:20:39.292  INFO 16308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-09-22 20:20:39.302  INFO 16308 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-22 20:20:39.303  INFO 16308 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-22 20:20:39.377  INFO 16308 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-22 20:20:39.377  INFO 16308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
+2022-09-22 20:20:39.427  INFO 16308 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-22 20:20:39.537  INFO 16308 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-22 20:20:39.552  INFO 16308 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/oxefood'
+2022-09-22 20:20:39.717  INFO 16308 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-22 20:20:39.759  INFO 16308 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-09-22 20:20:39.886  INFO 16308 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-22 20:20:39.966  INFO 16308 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-22 20:20:40.155  INFO 16308 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-22 20:20:40.161  INFO 16308 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-22 20:20:40.242  WARN 16308 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-22 20:20:41.115  WARN 16308 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 434ae1cd-42d9-4a41-91ee-52b26fb52fde
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-09-22 20:20:41.258 DEBUG 16308 --- [restartedMain] edFilterInvocationSecurityMetadataSource : Adding web access control expression [authenticated] for any request
+2022-09-22 20:20:41.333  INFO 16308 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e720d43, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ec0769d, org.springframework.security.web.context.SecurityContextPersistenceFilter@505c0868, org.springframework.security.web.header.HeaderWriterFilter@45c3c44f, org.springframework.security.web.csrf.CsrfFilter@6bdb88cb, org.springframework.security.web.authentication.logout.LogoutFilter@2f4bd5a7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73cebef7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70cdbfe7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62daef8d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c618c7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ca3ad0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8ce9b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4783998f, org.springframework.security.web.session.SessionManagementFilter@5650dbe6, org.springframework.security.web.access.ExceptionTranslationFilter@111f0f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45168199]
+2022-09-22 20:20:41.402  INFO 16308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-22 20:20:41.442  INFO 16308 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-09-22 20:20:41.454  INFO 16308 --- [restartedMain] br.com.ifpe.oxefood.OxefoodApplication   : Started OxefoodApplication in 4.08 seconds (JVM running for 4.53)
+2022-09-22 20:21:11.056  INFO 16308 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-22 20:21:11.056  INFO 16308 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-22 20:21:11.058  INFO 16308 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-22 20:21:11.067 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /
+2022-09-22 20:21:11.072 DEBUG 16308 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:21:11.076 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-09-22 20:21:11.076 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.w.session.SessionManagementFilter  : Request requested invalid session id 979FB1E75D3AFE4F05142318A824AFC4
+2022-09-22 20:21:11.082 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /] with attributes [authenticated]
+2022-09-22 20:21:11.099 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8082/ to session
+2022-09-22 20:21:11.100 DEBUG 16308 --- [http-nio-8082-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@6b543b23, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-09-22 20:21:11.100 DEBUG 16308 --- [http-nio-8082-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@4abfb0dc
+2022-09-22 20:21:11.101 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-09-22 20:21:11.103 DEBUG 16308 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.105 DEBUG 16308 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.106 DEBUG 16308 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:21:11.112 DEBUG 16308 --- [http-nio-8082-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-09-22 20:21:11.112 DEBUG 16308 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:21:11.114 DEBUG 16308 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.115 DEBUG 16308 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.115 DEBUG 16308 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:21:11.305 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2022-09-22 20:21:11.305 DEBUG 16308 --- [http-nio-8082-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:21:11.305 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-09-22 20:21:11.306 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /favicon.ico] with attributes [authenticated]
+2022-09-22 20:21:11.306 DEBUG 16308 --- [http-nio-8082-exec-3] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@6b543b23, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-09-22 20:21:11.307 DEBUG 16308 --- [http-nio-8082-exec-3] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@4abfb0dc
+2022-09-22 20:21:11.307 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-09-22 20:21:11.307 DEBUG 16308 --- [http-nio-8082-exec-3] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.307 DEBUG 16308 --- [http-nio-8082-exec-3] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.307 DEBUG 16308 --- [http-nio-8082-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:21:11.313 DEBUG 16308 --- [http-nio-8082-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-09-22 20:21:11.313 DEBUG 16308 --- [http-nio-8082-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:21:11.313 DEBUG 16308 --- [http-nio-8082-exec-4] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.314 DEBUG 16308 --- [http-nio-8082-exec-4] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:21:11.314 DEBUG 16308 --- [http-nio-8082-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:22:44.534 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /login
+2022-09-22 20:22:44.534 DEBUG 16308 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:22:44.697 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'admin'
+2022-09-22 20:22:44.702 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.web.DefaultRedirectStrategy        : Redirecting to /login?error
+2022-09-22 20:22:44.702 DEBUG 16308 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.702 DEBUG 16308 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.702 DEBUG 16308 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:22:44.708 DEBUG 16308 --- [http-nio-8082-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /login?error
+2022-09-22 20:22:44.708 DEBUG 16308 --- [http-nio-8082-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:22:44.710 DEBUG 16308 --- [http-nio-8082-exec-8] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.711 DEBUG 16308 --- [http-nio-8082-exec-8] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.711 DEBUG 16308 --- [http-nio-8082-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:22:44.814 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2022-09-22 20:22:44.814 DEBUG 16308 --- [http-nio-8082-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:22:44.815 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-09-22 20:22:44.815 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /favicon.ico] with attributes [authenticated]
+2022-09-22 20:22:44.818 DEBUG 16308 --- [http-nio-8082-exec-9] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@6b543b23, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-09-22 20:22:44.819 DEBUG 16308 --- [http-nio-8082-exec-9] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@4abfb0dc
+2022-09-22 20:22:44.819 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-09-22 20:22:44.820 DEBUG 16308 --- [http-nio-8082-exec-9] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.820 DEBUG 16308 --- [http-nio-8082-exec-9] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.820 DEBUG 16308 --- [http-nio-8082-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:22:44.824 DEBUG 16308 --- [http-nio-8082-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-09-22 20:22:44.824 DEBUG 16308 --- [http-nio-8082-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:22:44.825 DEBUG 16308 --- [http-nio-8082-exec-10] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.825 DEBUG 16308 --- [http-nio-8082-exec-10] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:22:44.825 DEBUG 16308 --- [http-nio-8082-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:23:34.895 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.security.web.FilterChainProxy        : Securing POST /login
+2022-09-22 20:23:34.896 DEBUG 16308 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:23:34.981 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'oxefood'
+2022-09-22 20:23:34.981 DEBUG 16308 --- [http-nio-8082-exec-1] o.s.s.web.DefaultRedirectStrategy        : Redirecting to /login?error
+2022-09-22 20:23:34.982 DEBUG 16308 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:34.982 DEBUG 16308 --- [http-nio-8082-exec-1] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:34.982 DEBUG 16308 --- [http-nio-8082-exec-1] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:23:34.986 DEBUG 16308 --- [http-nio-8082-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /login?error
+2022-09-22 20:23:34.986 DEBUG 16308 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:23:34.987 DEBUG 16308 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:34.987 DEBUG 16308 --- [http-nio-8082-exec-2] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:34.987 DEBUG 16308 --- [http-nio-8082-exec-2] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:23:35.068 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2022-09-22 20:23:35.069 DEBUG 16308 --- [http-nio-8082-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:23:35.069 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-09-22 20:23:35.069 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /favicon.ico] with attributes [authenticated]
+2022-09-22 20:23:35.069 DEBUG 16308 --- [http-nio-8082-exec-3] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@6b543b23, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-09-22 20:23:35.070 DEBUG 16308 --- [http-nio-8082-exec-3] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@4abfb0dc
+2022-09-22 20:23:35.070 DEBUG 16308 --- [http-nio-8082-exec-3] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-09-22 20:23:35.070 DEBUG 16308 --- [http-nio-8082-exec-3] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:35.070 DEBUG 16308 --- [http-nio-8082-exec-3] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:35.070 DEBUG 16308 --- [http-nio-8082-exec-3] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:23:35.076 DEBUG 16308 --- [http-nio-8082-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-09-22 20:23:35.076 DEBUG 16308 --- [http-nio-8082-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:23:35.076 DEBUG 16308 --- [http-nio-8082-exec-4] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:35.077 DEBUG 16308 --- [http-nio-8082-exec-4] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:23:35.077 DEBUG 16308 --- [http-nio-8082-exec-4] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:28:21.780 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /
+2022-09-22 20:28:21.781 DEBUG 16308 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:28:21.781 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.w.s.HttpSessionRequestCache        : Loaded matching saved request http://localhost:8082/
+2022-09-22 20:28:21.783 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-09-22 20:28:21.784 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /] with attributes [authenticated]
+2022-09-22 20:28:21.786 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.w.s.HttpSessionRequestCache        : Saved request http://localhost:8082/ to session
+2022-09-22 20:28:21.786 DEBUG 16308 --- [http-nio-8082-exec-7] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@6b543b23, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-09-22 20:28:21.787 DEBUG 16308 --- [http-nio-8082-exec-7] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@4abfb0dc
+2022-09-22 20:28:21.787 DEBUG 16308 --- [http-nio-8082-exec-7] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-09-22 20:28:21.788 DEBUG 16308 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.788 DEBUG 16308 --- [http-nio-8082-exec-7] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.788 DEBUG 16308 --- [http-nio-8082-exec-7] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:28:21.792 DEBUG 16308 --- [http-nio-8082-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-09-22 20:28:21.793 DEBUG 16308 --- [http-nio-8082-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:28:21.793 DEBUG 16308 --- [http-nio-8082-exec-8] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.794 DEBUG 16308 --- [http-nio-8082-exec-8] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.794 DEBUG 16308 --- [http-nio-8082-exec-8] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:28:21.958 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /favicon.ico
+2022-09-22 20:28:21.958 DEBUG 16308 --- [http-nio-8082-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:28:21.958 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2022-09-22 20:28:21.959 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.s.w.a.i.FilterSecurityInterceptor    : Failed to authorize filter invocation [GET /favicon.ico] with attributes [authenticated]
+2022-09-22 20:28:21.959 DEBUG 16308 --- [http-nio-8082-exec-9] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.HeaderContentNegotiationStrategy@6b543b23, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2022-09-22 20:28:21.959 DEBUG 16308 --- [http-nio-8082-exec-9] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@4abfb0dc
+2022-09-22 20:28:21.959 DEBUG 16308 --- [http-nio-8082-exec-9] o.s.s.web.DefaultRedirectStrategy        : Redirecting to http://localhost:8082/login
+2022-09-22 20:28:21.960 DEBUG 16308 --- [http-nio-8082-exec-9] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.960 DEBUG 16308 --- [http-nio-8082-exec-9] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.960 DEBUG 16308 --- [http-nio-8082-exec-9] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:28:21.963 DEBUG 16308 --- [http-nio-8082-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /login
+2022-09-22 20:28:21.963 DEBUG 16308 --- [http-nio-8082-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Set SecurityContextHolder to empty SecurityContext
+2022-09-22 20:28:21.964 DEBUG 16308 --- [http-nio-8082-exec-10] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.964 DEBUG 16308 --- [http-nio-8082-exec-10] w.c.HttpSessionSecurityContextRepository : Did not store empty SecurityContext
+2022-09-22 20:28:21.964 DEBUG 16308 --- [http-nio-8082-exec-10] s.s.w.c.SecurityContextPersistenceFilter : Cleared SecurityContextHolder to complete request
+2022-09-22 20:35:05.752  INFO 16308 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-22 20:35:05.756  INFO 16308 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-22 20:35:05.763  INFO 16308 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
